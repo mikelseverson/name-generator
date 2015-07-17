@@ -1,0 +1,22 @@
+div {
+
+	
+}
+
+#peopleAge, #peopleSex, #peopleWeight, #peopleNames {
+	
+	display: block;
+	width: 60px;
+	text-align: center;
+	float: left;
+}
+
+ #peopleNames {
+ 	width: 120px;
+ }
+
+#peopleAge p:nth-child(even), #peopleSex p:nth-child(even), #peopleWeight p:nth-child(even), #peopleNames p:nth-child(even) {
+
+background-color: #ccc;
+
+}
